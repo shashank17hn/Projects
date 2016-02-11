@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CEF7E41-5B19-4375-A2AD-7D32B08ADA9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>House_of_hyderabad</RootNamespace>
+    <AssemblyName>House of hyderabad</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>..\..\..\pdf files\GDI+\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>..\..\..\pdf files\GDI+\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering">
+      <HintPath>..\..\..\pdf files\GDI+\MigraDoc.RtfRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PdfSharp">
+      <HintPath>..\..\..\pdf files\GDI+\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting">
+      <HintPath>..\..\..\pdf files\GDI+\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_dish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_dish.Designer.cs">
+      <DependentUpon>add_dish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_expenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_expenses.Designer.cs">
+      <DependentUpon>add_expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_order.Designer.cs">
+      <DependentUpon>Add_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_order2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_order2.Designer.cs">
+      <DependentUpon>Add_order2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Purchase_Statement .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Purchase_Statement .Designer.cs">
+      <DependentUpon>Add_Purchase_Statement .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_staff_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_staff_profile.Designer.cs">
+      <DependentUpon>Add_staff_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password.Designer.cs">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dish_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dish_menu.Designer.cs">
+      <DependentUpon>Dish_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="expenses_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="expenses_menu.Designer.cs">
+      <DependentUpon>expenses_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="House_of_hyderabadDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>House_of_hyderabadDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="l_add_expense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="l_add_expense.Designer.cs">
+      <DependentUpon>l_add_expense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="l_add_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="l_add_order.Designer.cs">
+      <DependentUpon>l_add_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="l_add_order2cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="l_add_order2cs.Designer.cs">
+      <DependentUpon>l_add_order2cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="l_add_purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="l_add_purchase.Designer.cs">
+      <DependentUpon>l_add_purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="l_main_mainu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="l_main_mainu.Designer.cs">
+      <DependentUpon>l_main_mainu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Past_bills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Past_bills.Designer.cs">
+      <DependentUpon>Past_bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_menu.Designer.cs">
+      <DependentUpon>Purchase_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales_menu.Designer.cs">
+      <DependentUpon>Sales_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_profile.Designer.cs">
+      <DependentUpon>staff_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_dishes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_dishes.Designer.cs">
+      <DependentUpon>view_dishes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_expenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_expenses.Designer.cs">
+      <DependentUpon>view_expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_order.Designer.cs">
+      <DependentUpon>View_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Salary_Statement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Salary_Statement.Designer.cs">
+      <DependentUpon>View_Salary_Statement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary.Designer.cs">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Profile.Designer.cs">
+      <DependentUpon>View_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_purchase_statement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_purchase_statement.Designer.cs">
+      <DependentUpon>View_purchase_statement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_dish.resx">
+      <DependentUpon>add_dish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_expenses.resx">
+      <DependentUpon>add_expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_order.resx">
+      <DependentUpon>Add_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_order2.resx">
+      <DependentUpon>Add_order2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Purchase_Statement .resx">
+      <DependentUpon>Add_Purchase_Statement .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_staff_profile.resx">
+      <DependentUpon>Add_staff_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_password.resx">
+      <DependentUpon>Change_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dish_menu.resx">
+      <DependentUpon>Dish_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expenses_menu.resx">
+      <DependentUpon>expenses_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_add_expense.resx">
+      <DependentUpon>l_add_expense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_add_order.resx">
+      <DependentUpon>l_add_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_add_order2cs.resx">
+      <DependentUpon>l_add_order2cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_add_purchase.resx">
+      <DependentUpon>l_add_purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_main_mainu.resx">
+      <DependentUpon>l_main_mainu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Past_bills.resx">
+      <DependentUpon>Past_bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_menu.resx">
+      <DependentUpon>Purchase_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales_menu.resx">
+      <DependentUpon>Sales_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_profile.resx">
+      <DependentUpon>staff_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_dishes.resx">
+      <DependentUpon>view_dishes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_expenses.resx">
+      <DependentUpon>view_expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_order.resx">
+      <DependentUpon>View_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Salary_Statement.resx">
+      <DependentUpon>View_Salary_Statement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View_Profile.resx">
+      <DependentUpon>View_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_purchase_statement.resx">
+      <DependentUpon>View_purchase_statement.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="House_of_hyderabadDataSet.xsc">
+      <DependentUpon>House_of_hyderabadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="House_of_hyderabadDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>House_of_hyderabadDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="House_of_hyderabadDataSet.xss">
+      <DependentUpon>House_of_hyderabadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="House_of_hyderabad.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

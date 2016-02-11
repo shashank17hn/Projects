@@ -1,0 +1,14 @@
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\bin\Debug\253 assignment.exe.config
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\bin\Debug\253 assignment.exe
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\bin\Debug\253 assignment.pdb
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\253 assignment.csprojResolveAssemblyReference.cache
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Form1.resources
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Main.resources
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Properties.Resources.resources
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\253 assignment.csproj.GenerateResource.Cache
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\253 assignment.exe
+c:\users\shashank\documents\visual studio 2013\Projects\253 assignment\253 assignment\obj\Debug\253 assignment.pdb
+C:\Users\Shashank\Documents\Visual Studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Settings.resources
+C:\Users\Shashank\Documents\Visual Studio 2013\Projects\253 assignment\253 assignment\bin\Debug\AGauge.dll
+C:\Users\Shashank\Documents\Visual Studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Register.resources
+C:\Users\Shashank\Documents\Visual Studio 2013\Projects\253 assignment\253 assignment\obj\Debug\_253_assignment.Paswword_recovery.resources

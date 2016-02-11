@@ -1,0 +1,24 @@
+c:\users\shashank17hn\documents\visual studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+c:\users\shashank17hn\documents\visual studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Character Rcognization.csprojResolveAssemblyReference.cache
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Tracer2.resources
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Tracer.resources
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Character Rcognization.csproj.GenerateResource.Cache
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Main.resources
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Detect.resources
+C:\Users\Shashank17hn\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Detect2.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Character Rcognization.csprojResolveAssemblyReference.cache
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Detect.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Detect2.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Main.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Tracer2.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Tracer.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Shashank\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\Character Rcognization.csproj.GenerateResource.Cache

@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<Script type="text/javascript">
+
+var message = "012222 1114142503 0313012513 03141418192102 0113 2419182119021713 06131715070119";
+var key = "BHISOECRTMGWYVALUZDNFJKPQX";
+var alph = [];
+var chars = {};
+ 
+for (var i = 0; i < 26; i++) {
+	alph[i] = String.fromCharCode(i + 65); // ascii code to respective alphabets abcdefghijklmnopqrstuvwxyz
+	chars[key.charAt(i)] = i;   // defines key for numbers like B=0 H=1
+};
+ 
+var i = 0;
+while (i < message.length) {        // Till message ends
+	var c = message.charAt(i);
+	if (c === " ") 
+	{
+		document.write(c);
+		i++;
+	} 
+	else 
+	{
+		i++;
+		c += message.charAt(i);      
+		var ch = alph[parseInt(c, 10)];  // divide message in set of two like 012222 -> 01 22 22 and compared with alphabets 01 - B ,22 -w
+		var val = chars[ch]; // output text is compared with key like B - 0 , w- 11
+		document.write(alph[val]); // output text is compared with alphabets again 0- A , 11- L
+		i++;
+	};
+};
+</Script>
+</BODY>
+</HTML>

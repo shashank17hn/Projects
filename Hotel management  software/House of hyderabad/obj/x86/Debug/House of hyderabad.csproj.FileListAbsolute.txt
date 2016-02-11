@@ -1,0 +1,143 @@
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_Purchase_Statement.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_staff_profile.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Change_password.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Purchase_menu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Sales_menu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.staff_profile.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_salary_statement.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Salary.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Login.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Main_Menu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Properties.Resources.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_Profile.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_purchase_statement.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe.config
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\House_of_hyderabad.mdf
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\House_of_hyderabad_log.ldf
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.pdb
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.exe
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.pdb
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_dish.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_expenses.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Dish_menu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.expenses_menu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_dishes.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_expenses.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_main_mainu.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_expense.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_purchase.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.pdfa.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xtra.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xml
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\MigraDoc.DocumentObjectModel.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\MigraDoc.Rendering.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\MigraDoc.RtfRendering.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\PdfSharp.Charting.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\PdfSharp.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.Rendering.resources.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order2.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_order.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Past_bills.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order.resources
+C:\Users\windows7\Documents\Visual Studio 2010\Projects\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order2cs.resources
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe.config
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.exe
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.pdb
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\House_of_hyderabad.mdf
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\House_of_hyderabad_log.ldf
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.pdb
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.pdfa.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xtra.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xml
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.Rendering.resources.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+D:\minor project\House of hyderabad\House of hyderabad\bin\Debug\de\PdfSharp.resources.dll
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.csprojResolveAssemblyReference.cache
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_dish.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_expenses.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order2.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_Purchase_Statement.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_staff_profile.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Change_password.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Dish_menu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.expenses_menu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_expense.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order2cs.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_purchase.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_main_mainu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Past_bills.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Purchase_menu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Sales_menu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.staff_profile.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_dishes.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_expenses.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_order.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_salary_statement.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Salary.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Login.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Main_Menu.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Properties.Resources.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_Profile.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_purchase_statement.resources
+D:\minor project\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.csproj.GenerateResource.Cache
+E:\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe.config
+E:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.exe
+E:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.pdb
+D:\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe.config
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.exe
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.pdb
+D:\House of hyderabad\House of hyderabad\bin\Debug\House_of_hyderabad.sdf
+D:\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.exe
+D:\House of hyderabad\House of hyderabad\bin\Debug\House of hyderabad.pdb
+D:\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.pdfa.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xtra.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\itextsharp.xml
+D:\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.Rendering.resources.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\de\MigraDoc.RtfRendering.resources.dll
+D:\House of hyderabad\House of hyderabad\bin\Debug\de\PdfSharp.resources.dll
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.csprojResolveAssemblyReference.cache
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_dish.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.add_expenses.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_order2.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_Purchase_Statement.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Add_staff_profile.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Change_password.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Dish_menu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.expenses_menu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_expense.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_order2cs.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_add_purchase.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.l_main_mainu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Past_bills.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Purchase_menu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Sales_menu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.staff_profile.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_dishes.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_expenses.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_order.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.view_salary_statement.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Salary.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Login.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Main_Menu.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.Properties.Resources.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_Profile.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House_of_hyderabad.View_purchase_statement.resources
+D:\House of hyderabad\House of hyderabad\obj\x86\Debug\House of hyderabad.csproj.GenerateResource.Cache
