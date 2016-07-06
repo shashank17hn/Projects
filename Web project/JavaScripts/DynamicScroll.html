@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Scroll & things appear</title>
+</head>
+<style type="text/css">
+#appear{
+    position: fixed;
+    bottom: 0px;
+    right: -450px;
+    background: firebrick;
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    padding: 25px;
+}
+
+#space1
+{
+    height:1600px;
+    font-size :20px;
+}
+</style>
+
+<script>
+ function ScrollDown() {
+     var flag1 = document.getElementById("appear");
+
+     if((window.pageYOffset + window.innerHeight)>= document.body.offsetHeight)
+     {
+         flag1.style.transition = "right 0.5s ease-in-out 0s";
+         flag1.style.right="0px";
+
+
+     }
+     else
+     {
+         flag1.style.transition = "right 0.5s ease-in-out 0s";
+         flag1.style.right="-450px";
+
+     }
+
+ }
+window.onscroll = ScrollDown;
+</script>
+<body>
+    <p id="space1">
+        Scroll down
+    </p>
+    <div id ="appear">
+
+        Woooshhhhh
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+

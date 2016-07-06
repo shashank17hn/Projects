@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+
+        var red = 0;
+        var blue = 4;
+        var green = 2;
+        var i=0;
+        var j=0
+        function todoList()
+        {
+
+
+            var data = document.getElementById("todoInput").value;
+            var pri = parseInt(document.getElementById("priority").value);
+            var dateIn = document.getElementById("Tododate").value;
+            var fullinfo = data +" - " + pri + " - " + dateIn;
+            var info=[];
+            if(j===0)
+            {
+
+                    info.push(fullinfo);
+
+                    j= j+1;
+
+            }
+            else if(j!=0)
+            {
+
+                    info.unshift(fullinfo);
+                 //   info.splice(0,0,fullinfo);
+                    j= j+1;
+
+            }
+
+             for(var z=0 ; z < info.length; z++)
+             {
+                 var text = document.createTextNode(info[z]);
+                 var newData = document.createElement("li");
+                 newData.appendChild(text);
+                 document.getElementById("todoList").appendChild(newData);
+             }
+
+             var tab = document.getElementById("todoList");
+            // var col = document.getElementById("todoList").getElementsByTagName("li");
+            //   var col = document.querySelectorAll("ul > li");
+
+            var col1 = document.getElementsByTagName("li");
+
+            var col = col1[i];
+
+            if(blue >=15 || green >=15)
+            {
+                red =0;
+                blue=5;
+                green =red+2;
+            }
+
+            if(red >=15)
+            {red =0;}
+            red = red + 1;
+            blue = blue + 1;
+            green = green + 1;
+
+
+            i= i+1;
+
+
+            var redhex= red.toString(16)
+            var bluehex= blue.toString(16);
+            var greenhex= green.toString(16);
+            var hex = '#' + redhex + bluehex +greenhex;
+
+            col.style.background = hex;
+
+
+
+
+
+
+        }
+    </script>
+    <title>To do List</title>
+</head>
+<body>
+<h1> To Do List</h1>
+<form id ="todo">
+    <input id ="todoInput">
+    <select id = "priority">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <input id="Tododate" type="date">
+
+
+    <button type ="button" onclick ="todoList()"> Add </button>
+    <ol id = "todoList">
+
+    </ol>
+</form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Slide Show</title>
+    <style>
+        #slideshow
+        {
+            opacity: 0;
+            transition: opacity 1.0s linear 0s;
+        }
+    </style>
+    <script>
+        var flag =0;
+        var array = ["PHP","JavaScript","SQL","Java","C++","C#/.NET"];
+        var element;
+        function slideNext()
+        {
+         flag ++;
+            element.style.opacity =0;
+
+            if(flag > (array.length -1))
+            {
+                flag ==0;
+            }
+            setTimeout('slideNow()',1000);
+        }
+
+        function slideNow()
+        {
+          element.innerHTML = array[flag];
+            element.style.opacity =1;
+            setTimeout('slideNext()',2000);
+        }
+    </script>
+</head>
+<body>
+<h1>Hello world. This is : <span id="slideshow"> </span></h1>
+<script>
+    element = document.getElementById("slideshow"); slideNow();
+</script>
+</body>
+</html>
