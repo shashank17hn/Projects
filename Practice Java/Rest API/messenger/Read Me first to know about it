@@ -1,0 +1,2 @@
+This ia an example of REST. To use this you musyt have an appliction like "Postman" which is available in chrome browser store. It is need to use POST, PUT, DELETE, GET. 
+This is example in which a simple messaging app is shown where there is different profile , comments and messages. Every data is sent and recieved in form of JSON. it can be changed to XML by simple changing MediaType.
