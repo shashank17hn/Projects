@@ -2,9 +2,14 @@
 
 <html>
 <head>
+	<script src="js/slideshow.js"></script>
+	<script src="js/ScrollDownAction.js"></script>
+	<script src="js/AutoScrollTop.js"></script>
 	<meta charset="UTF-8">
 	<title>Welcome to my profile</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+
 </head>
 <body>
 	<header id="header">
@@ -52,7 +57,7 @@
 		<div id="tagline">
 
 			<h1>Summary</h1>
-			<div>
+			<div id="leftDiv">
 				<p>
 					Experience in IT industry in Software Analysis, Design, Development, Testing, Deployment and Maintenance of Web and J2EE
 					applications
@@ -78,7 +83,7 @@
 					Experience in connecting and maintaing database with desktop and web application.
 				</p>
 			</div>
-			<div>
+			<div id="rightDiv">
 				<p>
 					Well versed with J2EE Design Patterns like Singleton, Factory, Front-Controller, Session Façade, Service-Locator, Data Access
 					Object (DAO), Data Transfer Object (DTO), MVC (Struts), Business-Delegate.
@@ -101,18 +106,47 @@
 
 			</div>
 		</div>
+
 	</main>
-	<footer id="footer">
+	<section id="SlideShow">
 		<div>
-			<div class="connect">
+			<span class ="show1" id="show1">
+			<script>	element1 = document.getElementById("show1"); slideNow1(); </script>
+			</span>
+			<span class="show2" id="show2">
+			<script>	element2 = document.getElementById("show2"); slideNow2(); </script>
+			</span>
+			<span class = "show1" id="show3">
+			<script>	element3 = document.getElementById("show3"); slideNow1(); </script>
+			</span>
+			<span class="show2" id="show4">
+			<script>	element4 = document.getElementById("show4"); slideNow2(); </script>
+			</span>
+			<span class = "show1" id="show5">
+			<script>	element5 = document.getElementById("show5"); slideNow1(); </script>
+			</span>
+			<span class="show2" id="show6">
+			<script>	element6 = document.getElementById("show6"); slideNow2();</script>
+			</span>
+			<span class = "show1" id="show7">
+			<script>	element7 = document.getElementById("show7"); slideNow1();</script>
+			</span>
+
+		</div>
+	</section>
+	<footer class="footer" id ="foot">
+		<div id = "foot1" >
+			<div class="connect"  >
 				<a href="https://www.facebook.com/shashank17hn" target="_blank" class="facebook"></a>
 				<a href="https://www.linkedin.com/in/shashank-shivhare-5a12a67b" target="_blank" class="linkedin"></a>
 				<a href="https://www.github.com/shashank17hn/Projects" target="_blank" class="github"></a>
+				<a href="#" target="_blank" onclick="return false" onmousedown="resetScroller('header')"  class="upgo"></a>
 			</div>
 			<p>
 				Shashank Shivhare
+
 			</p>
 		</div>
 	</footer>
-</body>
-</html>
+  </body>
+  </html>

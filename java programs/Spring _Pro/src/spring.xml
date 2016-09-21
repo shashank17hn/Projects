@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="triangle" class="lesson1.Triangle">
+	
+	
+	<!--  
+	<property name="type" value="Equilateral " />   used with setter
+	<constructor-arg type ="java.lang.String" value="Equilateral "/>
+	<constructor-arg type="int" value="20"/>             1st mtd of sending values used constructor  
+	  -->
+	  
+	<constructor-arg index ="0" value="Equilateral "/>  <!-- 2nd mtd of sending values used with constructor -->
+	<constructor-arg index ="1" value="20"/>            
+	  
+	</bean>
+	
+<!-- 	<bean id ="triangle2" class="lesson2.Triangle2" autowire="byName">  used with same by not considered -->
+
+
+	<bean id="triangle2" class="lesson1.Triangle2">
+		<property name="pointA" ref="point1"/>
+		
+	    <property name="pointB">
+	    	<bean class="lesson1.Point">
+				<property name="x" value= "10"/>     <!-- another way of defining bean inside property -->
+				<property name="y" value= "20"/>
+			</bean>
+	    </property>
+		<property name= "pointC" ref="point3"/> 
+	</bean>
+	
+	<bean id= "point1" class="lesson1.Point">
+		<property name="x" value= "0"/>
+		<property name="y" value= "10"/>
+	</bean>
+	 
+	<bean id= "point3" class="lesson1.Point">
+		<property name="x" value= "20"/>
+		<property name="y" value= "30"/>
+	</bean>
+	
+</beans>

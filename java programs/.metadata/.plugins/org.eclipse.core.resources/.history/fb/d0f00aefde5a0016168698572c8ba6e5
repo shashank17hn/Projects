@@ -1,0 +1,44 @@
+package extra;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+class Game {
+
+	public Game(){System.out.println("super");}
+}
+
+class Soccer extends Game {
+	
+	Soccer(){};
+
+}
+
+
+
+public class Test{ 
+	
+	//void probe(int x) { System.out.println("In ..."); } //1
+	void probe(Test x) { System.out.println("test ..."); } //1
+	//void probe(Integer x) { System.out.println("In Integer"); } //2
+	void probe(long x) { System.out.println("In long"); } //3
+	//void probe(char x) { System.out.println("In char"); } //3
+	//void probe(String x) { System.out.println("In String"); } //3
+	void probe(Long x) { System.out.println("In LONG"); } //4
+	
+	static int x =0;
+	public static void main(String args[]) throws Exception {
+
+		
+		Integer a = 4; new Test().probe(a); //5
+		int b = 4; new Test().probe(b); //6
+		
+		Long ab =10l; new Test().probe(ab);
+		long abc =10;
+		new Test().probe(a);
+		
+		
+			
+		
+	}
+}

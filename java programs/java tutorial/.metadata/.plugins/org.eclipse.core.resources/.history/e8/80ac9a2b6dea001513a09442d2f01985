@@ -1,0 +1,15 @@
+package lesson4;
+import java.util.HashMap;
+import java.util.HashSet;
+public class Hashmap_set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashSet<String> directs = new HashSet<String>();
+		directs.add("abc");
+		directs.add("efg");
+		System.out.println(directs);
+	}
+
+}

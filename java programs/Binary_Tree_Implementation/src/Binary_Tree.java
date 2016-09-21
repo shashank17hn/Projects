@@ -1,0 +1,105 @@
+
+public class Binary_Tree {
+	
+	public TreeNode root;
+	
+	public Binary_Tree()
+	{
+		root = null;
+	}
+	
+	public Binary_Tree(TreeNode root)
+	{
+	  this.root = root;	
+	}
+	
+	public void traverse(TreeNode info)
+	{
+		System.out.print(info.getWeight()+ " ");
+		
+	}
+	
+	public void add(int value)
+	{
+		root = add(root,value);
+	}
+	
+	public TreeNode add(TreeNode root, int value)
+	{
+		if(root== null)
+		{
+			root = new TreeNode(value);
+		}
+		else if(root.getWeight()> value)
+		{
+			root.left = add(root.left, value);
+		}
+		else if(root.getWeight()<value)
+		{
+			root.right = add(root.right, value);
+		}
+		return root;
+		
+	}
+	
+	public boolean search(int x)
+	{
+		return search(root,x);
+	}
+	
+	public boolean search(TreeNode node, int x)
+	{
+		boolean found = false;
+		while((node !=null) && !found)
+		{
+		if(node.getWeight()> x)
+		{
+			
+			node = node.left;
+		
+		}
+		else if(node.getWeight()<x)
+		{
+			node = node.right;
+		}
+		else
+		{
+			found = true;
+			break;
+		}
+		found= search(node,x);
+		}
+		return found;
+	}
+	
+	
+	
+	
+	public void preorder(TreeNode root)
+	{
+		if(root == null) return;
+		traverse(root);
+		preorder(root.left);
+		preorder(root.right);
+		
+	}
+	
+	public void inorder(TreeNode root)
+	{
+		if(root == null) return;
+		inorder(root.left);
+		traverse(root);
+		inorder(root.right);
+		
+	}
+	
+	public void postorder(TreeNode root)
+	{
+		if(root == null) return;
+		postorder(root.left);
+		postorder(root.right);
+		traverse(root);
+		
+	}
+
+}

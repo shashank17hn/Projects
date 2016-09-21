@@ -1,0 +1,40 @@
+package extra;
+
+
+	public class Test2{
+        static int l = 4;
+        private int k=2;
+
+public static void main(String argv[]){
+        Test2 a = new Test2();
+        a.amethod();
+        System.out.println( "value" +  l); 
+        
+        }
+
+     public void amethod(){
+        int i = 99;
+        int j = 6;
+        class CInMet{
+                public void mymethod(int q){
+                                //Here
+                	
+                	System.out.println( "value" +  i + j + k + l);
+                     }//end of mymethod
+                
+                class Abc
+                 {
+                	  public void mymethod2(int q){
+                	System.out.println( "value" +  i + j + k + l); 
+                	  }
+                 }
+                }//End of CInMet
+
+                CInMet c = new CInMet();
+                c.mymethod(i);
+     }//End of amthod
+}
+
+	
+
+

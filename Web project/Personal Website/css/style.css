@@ -22,7 +22,7 @@ img {
 	border-bottom: 1px solid #e6e6e6;
 	padding: 27px 0;
 }
-#header > nav, #footer > div {
+#header > nav, .footer > div ,#SlideShow > div{
 	width: 920px;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -178,10 +178,25 @@ p a {
 #tagline h1 {
 	margin-left: 20px;
 }
-#tagline > div {
+
+#leftDiv{
 	float: left;
 	width: 400px;
-	margin: 0 20px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: -1000px;
+
+
+
+}
+#rightDiv{
+	float: left;
+	width: 400px;
+	margin-top: 0px;
+
+	margin-right: -1000px;
+
+
 }
 #contents .features {
 	width: 810px;
@@ -204,11 +219,21 @@ p a {
 	padding-top: 10px;
 }
 
+#edu1{
+	opacity: 0;
+	transition: opacity 1.0s linear 0s;
+}
 .bachelors
 {
 	border-top: 1px solid #d5d5d5;
 	padding-top: 10px;
 }
+
+#edu2{
+	opacity: 0;
+	transition: opacity 1.0s linear 0s;
+}
+
 .list{
 
 	margin-left: 300px;
@@ -238,6 +263,27 @@ p a {
 	color : #fff;
 }
 .date p span {
+	display: block;
+	font-size: 30px;
+	margin-bottom: 6px;
+
+}
+
+.certificate {
+	float: left;
+	height: 78px;
+	width: 73px;
+	margin-right: 20px;
+	border: 1px solid #d5d5d5;
+	background-color:#44280D ;
+	text-align: center;
+
+}
+.certificate p {
+	margin: 2px 2px 2px;
+	color : #fff;
+}
+.certificate p span {
 	display: block;
 	font-size: 30px;
 	margin-bottom: 6px;
@@ -298,7 +344,7 @@ p a {
 	position: relative;
 
 }
-.news li .date {
+.news li .date,.certificate{
 	float: none;
 	position: absolute;
 	left: 0;
@@ -419,24 +465,76 @@ input[type='submit']:hover {
 	overflow: auto;
 	resize: none;
 }
+/*------------------------------ SlideShow ------------------------------*/
 
+#SlideShow {
+	background-color: #FFFFFF;
+	padding: 30px 0;
+
+}
+
+#SlideShow div
+{
+	width: 600px;
+	text-align: center;
+
+
+}
+.show1
+{
+
+	font-size: 30px;
+	line-height: 30px;
+	padding-left: 30px;
+	color:#44280D;
+
+
+}
+.show2
+{
+
+	font-size: 50px;
+	line-height: 30px;
+	padding-left: 30px;
+	color:#000;
+
+}
+
+#show1,#show2,#show3,#show4,#show5,#show6,#show7
+{
+	opacity: 0;
+	transition: opacity 1.0s linear 0s;
+}
 
 /*------------------------------ FOOTER ------------------------------*/
-#footer {
+.footer {
 	background-color: #44280D;
 	border-top: 1px solid #d8d8d8;
 	padding: 30px 0;
+
+
+
 }
-#footer p {
-	font-size: 20px;
+.footer p {
+	font-size: 25px;
 	line-height: 30px;
 	padding-left: 10px;
-	color:#000; ;
+	color:#000;
 }
+
+#foot1
+{
+	width: 0px;
+}
+
+
+
+
 .connect {
 	float: right;
 	display: inline-block;
 	margin-right: 30px;
+
 }
 .connect a {
 
@@ -444,6 +542,7 @@ input[type='submit']:hover {
 	height: 50px;
 	width: 50px;
 	margin: 0 10px;
+
 }
 .connect a.linkedin{
 
@@ -469,6 +568,14 @@ input[type='submit']:hover {
 .connect a.github:hover {
 
 	background: url(../images/github.png) no-repeat;
+}
+.connect a.upgo{
+
+	background: url(../images/up2.png) no-repeat;
+}
+.connect a.upgo:hover {
+
+	background: url(../images/up1.png) no-repeat;
 }
 
 

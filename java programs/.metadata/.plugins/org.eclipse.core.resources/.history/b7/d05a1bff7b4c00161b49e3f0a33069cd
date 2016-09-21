@@ -1,0 +1,34 @@
+package extra;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+public class InputOutput {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		File path = new File("Test.txt");
+		
+		System.out.println("path is : " + path);
+		System.out.println("This directory exist : " + path.isDirectory());
+	
+		System.out.println("This path exist : " + path.exists());
+		System.out.println("This path file exist : " + path.isFile());
+		
+		String content = "This is a test file. Check ! ";
+		OutputStream os = new FileOutputStream(path);
+		try {
+			os.write(content.getBytes());
+			os.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

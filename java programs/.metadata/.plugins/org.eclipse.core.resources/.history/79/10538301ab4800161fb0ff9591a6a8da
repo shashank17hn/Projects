@@ -1,0 +1,11 @@
+package extra;
+
+public class Base {
+	
+	
+	Base()
+	{
+		System.out.println("from base");
+	}
+
+}

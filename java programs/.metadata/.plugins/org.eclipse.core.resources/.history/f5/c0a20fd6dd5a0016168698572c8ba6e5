@@ -1,0 +1,35 @@
+package extra;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+class Game {
+
+	public Game(){System.out.println("super");}
+}
+
+class Soccer extends Game {
+	
+	Soccer(){};
+
+}
+
+
+
+public class Test{ 
+	
+	void probe(int x) { System.out.println("In ..."); } //1
+	void probe(Integer x) { System.out.println("In Integer"); } //2
+	
+	static int x =0;
+	public static void main(String args[]) throws Exception {
+
+		
+		Integer a = 4; new Test().probe(a); //5
+		int b = 4; new Test().probe(b); //6
+		
+		
+			
+		
+	}
+}

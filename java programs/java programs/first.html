@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body onunload = "alert('goodbye');">
+
+<script type="text/javascript">
+document.write("Hello how are you");
+var a = "hey this is \"shashank\" <br/>";
+document.write(a);
+document.write("so what " + a);
+
+function fun()
+{
+alert("ouchhhhh!!!");
+}
+function fun2(x)
+{
+alert("ouchhhhh!!!" + x);
+}
+fun2("Shashank");
+function fun3(one , two)
+{
+document.write(one + " is better then " + two + "<br/>");
+
+}
+fun3("xyz","abc");
+
+</script>
+<form>
+
+<input type = "button" , value = "Touch Me", onclick = "fun()"/>
+<input type ="button" , value = "on me" , onmouseover = "alert('oh hie how are you');"/>
+</form>
+
+</body>
+
+
+</html>

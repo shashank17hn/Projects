@@ -1,0 +1,31 @@
+package extra;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+class Game {
+public void play(){
+System.out.println("Playing...");
+}
+}
+class Soccer extends Game {
+public void play() {
+System.out.println("Playing Soccer with "+ball);
+}
+}
+
+
+
+
+public class Test{ 
+	static String s[] = new String[10];
+	
+
+	public static void main(String args[]) {
+	
+		Game g = new Soccer();
+		g.play();
+	
+		
+	}
+}
