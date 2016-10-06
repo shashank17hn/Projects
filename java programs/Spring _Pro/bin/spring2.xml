@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+    
+	<bean id="triangle2" class="lesson2.Triangle2">
+		<property name ="points">
+			<list>
+	 			<ref bean="pointA" />
+	 			<ref bean="pointB" />
+	 			<ref bean="pointC" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id= "pointA" class="lesson2.Point">
+		<property name="x" value= "0"/>
+		<property name="y" value= "10"/>
+	</bean>
+	
+	<bean id= "pointB" class="lesson2.Point">
+		<property name="x" value= "10"/>     
+		<property name="y" value= "20"/>
+    </bean> 
+    
+	<bean id= "pointC" class="lesson2.Point">
+		<property name="x" value= "20"/>
+		<property name="y" value= "30"/>
+	</bean>
+	
+</beans>
