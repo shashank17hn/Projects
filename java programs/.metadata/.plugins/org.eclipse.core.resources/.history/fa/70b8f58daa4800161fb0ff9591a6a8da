@@ -1,8 +1,0 @@
-package extra;
-
-public class Base {
-	
-	public static void play()
-	{}
-
-}
