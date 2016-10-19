@@ -1,0 +1,95 @@
+
+public class Circular {
+	
+	private int front;
+	private int rear;
+	private int size;
+	private int[] data;
+	private int count;
+	
+	public Circular()
+	{
+		front = rear =0;
+		size= 5;
+		data = new int[size];
+	}
+	
+	public int DataSize()
+	{
+		return(size - front+ rear )%size;
+	}
+	
+	public Integer dequeue()
+	{
+		if(front == rear)
+		{
+			System.out.println("Queue is Empty");
+			return null;
+		}
+		int temp = data[front++];
+		if(front == size)
+		{
+		 front =0;
+		}
+		System.out.println("Queue is dequeued");
+		return temp;
+	}
+	public void resize()
+	{
+		
+		size = 2*size;
+		int[] temp = new int[size]; 
+		int temp_size = DataSize();
+		int lastValue = temp_size +1;
+		int i=0;
+		while(temp_size > 0)
+		{
+			temp_size--;
+			temp[i++] = data[front++];
+			if(front==lastValue)
+			{
+				front =0;
+			}
+		}
+		front=0;
+		data = new int[size];
+		rear=temp_size;
+		for(i=0;i<temp.length;i++)
+		{
+			data[i] = temp[i];
+		}
+		//data = temp;
+				
+	}
+	
+	public void enqueue(int item)
+	{
+		int data_size= DataSize();
+		if(data_size == size)
+		{
+			System.out.println("Queue is full.Now resizing");
+			resize();
+		}
+		if(rear == size)
+		{
+			rear=0;
+			data[rear++] = item;
+			System.out.println("Queue is enqueued" +item);
+		}
+		else{
+		data[rear++] = item;
+		System.out.println("Queue is enqueued" +item);
+		}
+		
+	}
+	
+	public void print()
+	{
+		count = DataSize();
+		for(int i=0; i<data.length;i++)
+		{
+			System.out.println("Element " +i+" : " + data[i]);
+		}
+	}
+
+}

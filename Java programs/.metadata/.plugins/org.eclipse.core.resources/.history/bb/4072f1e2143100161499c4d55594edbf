@@ -1,0 +1,54 @@
+
+public class Max_heap {
+	
+	private int capacity;
+	private int[] heap;
+	private int pos;
+	
+	public Max_heap()
+	{
+		heap = new int[capacity];
+		capacity =10;
+		pos= 1;
+	}
+	
+	public void insert(int value)
+	{
+		if(pos != capacity)
+		{
+			heap[pos++] = value;
+		    
+			int child = pos-1;
+			int parent = child/2;
+			
+			while((heap[parent] < heap[child]) && (parent >0))
+			{
+				int temp = heap[parent];
+				heap[parent] = heap[child];
+				heap[child]= heap[parent];
+				
+				child = parent;
+				parent = child/2;
+			}
+			
+		}
+		
+		else
+		{
+			System.out.println("Heap is full");
+		}
+		
+	 }
+		
+		public void print()
+		{
+			for(int i=0; i< capacity ; i++ )
+			{
+				System.out.println(heap[i]);
+			}
+		}
+		
+		
+	}
+
+

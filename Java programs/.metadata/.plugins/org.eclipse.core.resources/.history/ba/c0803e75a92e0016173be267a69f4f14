@@ -1,0 +1,76 @@
+
+public class Doubly_List {
+
+	public Node head;
+	private int size;
+	
+   public Doubly_List()
+	{
+		head = null;
+		size =0;
+		
+	}
+   
+   public void insertFront(int item)
+   {
+	   
+	   if(head == null)
+	   {
+		   head = new Node(null,item,null);  
+	   }
+	   else
+	   {
+		   Node newLink = new Node(null,item, head);
+		   newLink.previous = head;
+		   head = newLink;
+	   }
+	   size++;
+   }
+   
+   public void insertBack(int item)
+   {
+	   if(head == null)
+	   {
+		   head = new Node(null,item,null);
+	   }
+	   else
+	   {
+		   Node current = head;
+		   while(current.next != null)
+		   {
+			   current = current.next;
+		   }
+		   Node newLink = new Node(current, item, null);
+		   current.next = newLink; 
+		   
+	   }
+	   size++;
+   }
+   
+   public void deleteFront()
+   {
+	   if(head !=null)
+	   {
+		   head = head.next;
+		   head.previous = null;
+		   size--;
+	   }
+	   else
+		   return;
+   }
+   
+   public void print()
+   {
+	   Node current = head;
+	   System.out.println("List is :");
+	   while(current != null)
+	   {
+		   
+		   System.out.println(current.getData());
+		   current= current.next;
+	   }
+   }
+   
+   
+	
+}

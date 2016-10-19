@@ -1,0 +1,13 @@
+
+public class Node {
+	
+	public Node next;
+	private int data;
+	private Node previous;
+	
+	public Node(int data)
+	{
+		
+	}
+
+}

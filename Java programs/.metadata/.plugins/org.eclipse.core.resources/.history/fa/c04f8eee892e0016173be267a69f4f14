@@ -1,0 +1,41 @@
+
+public class Linked_List {
+	
+	private Nodes head;
+
+	Linked_List()
+	{
+		head=null;
+	}
+	
+	public void insert(int item)
+	{
+		Nodes node1 = new Nodes(item);
+		node1.next = head;
+		head = node1;
+		
+	}
+	
+	public boolean delete()
+	{
+		if(head==null)
+			{ 
+			return false;
+			}
+		else
+		{
+		  head = head.next;
+		  return true;
+		}
+	}
+	
+	public void print()
+	{ 
+		Nodes current = head;
+		while(head!= null)
+		{
+			System.out.print(" | " +current.next);
+			current = current.next;
+		}
+	}
+}

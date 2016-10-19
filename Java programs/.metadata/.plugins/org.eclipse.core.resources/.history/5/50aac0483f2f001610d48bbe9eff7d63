@@ -1,0 +1,32 @@
+
+public class Main_LinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Linked_List ll = new Linked_List();
+		ll.insert(1);
+		ll.insert(2);
+		ll.insert(3);
+		ll.insert(4);
+		ll.insert(5);
+		ll.print();
+		
+		//ll.delete();
+		ll.delete();
+		ll.print();
+		
+	
+		//------------------------------------------------
+		
+ 
+        // Creating a loop for testing 
+        head.next.next.next.next.next = head.next.next;
+        list.detectAndRemoveLoop(head);
+		
+	
+		
+
+	}
+
+}

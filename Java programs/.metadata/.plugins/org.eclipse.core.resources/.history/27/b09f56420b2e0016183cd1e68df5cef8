@@ -1,0 +1,19 @@
+
+public class Queue {
+
+	private int front;
+	private int rear;
+	private int[] data;
+	private int size;
+	
+	
+	public Queue()
+	{
+		front = -1;
+		rear = -1;;
+		size= 3;
+		data[] = new int[Size];
+				
+	}
+	
+}

@@ -1,0 +1,12 @@
+
+public class Nodes {
+
+	private int data;
+	private Nodes next;
+	
+	Nodes(int data)
+	{
+		this.data = data;
+		next= null;
+	}
+}

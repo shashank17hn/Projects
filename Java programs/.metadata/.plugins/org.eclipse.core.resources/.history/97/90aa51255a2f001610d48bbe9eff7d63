@@ -1,0 +1,21 @@
+
+public class C_list {
+
+	public Node head;
+	private int count;
+	
+	public C_list()
+	{
+		head = null;
+		count;
+		
+	}
+	
+	public void insert(int item)
+	{
+		if(head == null)
+		{
+			Node Link = new Node(Link,item,Link); 
+		}
+	}
+}

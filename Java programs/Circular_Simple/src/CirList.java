@@ -1,0 +1,46 @@
+
+public class CirList {
+	
+	public Node head;
+	
+	public CirList()
+	{
+		head = null;
+	}
+	public void insert(int item)
+	{
+		Node newNode= new Node(item);
+		if(head == null)
+		{
+			head = newNode;
+			head.next = head;
+		}
+		else{
+			Node current = head;
+			while(current.next != head)
+			{
+				current= current.next;
+				
+			}
+			current.next = newNode;
+			newNode.next = head;
+		
+			
+			
+		}
+		
+	}
+	
+	public void print()
+	{
+		Node current = head;
+		do
+		{
+			System.out.println(current.getdata());
+			current = current.next;
+		}
+		while(current != head);
+		
+	}
+
+}

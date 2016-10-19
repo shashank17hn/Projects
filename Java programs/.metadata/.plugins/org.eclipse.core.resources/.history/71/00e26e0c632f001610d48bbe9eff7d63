@@ -1,0 +1,157 @@
+
+public class Doubly_List {
+
+	public Node head;
+	private int size;
+	
+   public Doubly_List()
+	{
+		head = null;
+		size =0;
+		
+	}
+   
+   public void insertFront(int item)
+   {
+	   
+	   if(head == null)
+	   {
+		   head = new Node(null,item,null);  
+	   }
+	   else
+	   {
+		   Node newLink = new Node(null,item, head);
+		   newLink.previous = head;
+		   head = newLink;
+	   }
+	   size++;
+   }
+   
+   public void insertBack(int item)
+   {
+	   if(head == null)
+	   {
+		   head = new Node(null,item,null);
+	   }
+	   else
+	   {
+		   Node current = head;
+		   while(current.next != null)
+		   {
+			   current = current.next;
+		   }
+		   Node newLink = new Node(current, item, null);
+		   current.next = newLink; 
+		   
+	   }
+	   size++;
+   }
+   
+   public void deleteFront()
+   {
+	   if(head !=null)
+	   {
+		   head = head.next;
+		   head.previous = null;
+		   size--;
+	   }
+	   else
+		   return;
+   }
+   
+   public void deleteBack()
+   {
+	   if(head == null)return;
+	   else if(head.next ==null)
+	   {
+		   head = null;
+	   }
+	   else
+	   {   
+		   
+		   Node current = head;
+		   while(current.next.next != null)
+		   {
+			   current = current.next;
+		   }
+		   current.next = null;
+		   size--;
+		   return;
+	   }	   
+	   
+   }
+   
+   public void insertAt(int item, int index)
+   {   if(head== null) return;
+	   if(index < 1 || index > size) return;
+	   
+	   Node current = head;
+	   int counter=1;
+	   while(counter < index )
+	   {
+		   current = current.next;
+		   counter++;
+	   }
+	   if(current.previous ==null)
+	   {
+		   Node newLink = new Node(null,item,head);
+		   current.previous = newLink;
+		   head = newLink;
+	   }
+	   else{
+	   Node newLink = new Node(current.previous,item,current);
+	   current.previous.next = newLink;
+	   }
+	   size++;
+	   
+   }
+   
+   public void deleteAt(int index)
+   {
+	if(head== null) return;
+	if(index <1 || index> size) return;
+	Node current = head;
+	int counter=1;
+	while(counter < index)
+	{
+		current = current.next;
+		counter++;
+	}
+	if(current.next == null )
+	{
+		current.previous.next =null;
+		
+	}
+	
+	else if(current.previous == null)
+     {
+    	 current = current.next;
+    	 current.previous = null;
+    	 head = current;
+    	 
+     }	else
+     {
+		current.previous.next = current.next;
+		current.next.previous = current.previous;
+	}
+	size--;
+	
+		
+   }
+   
+   public void print()
+   {
+	   Node current = head;
+	   System.out.print("List is :");
+	   while(current != null)
+	   {
+		   
+		   System.out.print(current.getData());
+		   current= current.next;
+	   }
+	   System.out.println();
+   }
+   
+   
+	
+}

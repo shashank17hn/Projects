@@ -1,0 +1,44 @@
+package extra;
+
+import java.util.ArrayList;
+
+class Phone {
+	int a1;
+static void call1() {
+System.out.println("Call-Phone");
+}
+}
+class SmartPhone extends Phone{
+	int a2;
+static void call2() {
+System.out.println("Call-SmartPhone");
+}
+}
+public class Test{ 
+	static String s[] = new String[10];
+	
+
+	public static void main(String args[]) {
+	
+		
+	
+		Integer s4 = 10;
+		Float s5 = 10f;
+		
+		ArrayList<String> s2 = new ArrayList<String>();
+		StringBuilder s1 = new StringBuilder("asbc");
+		//System.out.println(s);
+		char i[] = {'1','2','3','4'};
+		String s = new String("abcd  ");
+		char ab = 1;
+		
+		//s2.add(0,"7");
+		//s2.add("9");
+		//s2.remove(2);
+		//System.out.println(ab);
+	//	System.out.println(s + s);
+		
+		System.out.println(s.indexOf("10"));
+	
+	}
+}

@@ -1,0 +1,27 @@
+
+public class Max_heap {
+	
+	private int capacity;
+	private int[] heap;
+	private int pos;
+	
+	public Max_heap()
+	{
+		heap = new int[capacity];
+		capacity =10;
+		pos= 1;
+	}
+	
+	public void insert(int value)
+	{
+		if(pos != capacity)
+		{
+			heap[pos++] = value;
+		
+			
+		}
+		
+		
+	}
+
+}

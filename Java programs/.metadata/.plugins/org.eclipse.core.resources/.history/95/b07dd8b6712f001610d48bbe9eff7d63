@@ -1,0 +1,25 @@
+
+public class CirList {
+	
+	public Node head;
+	
+	public CirList()
+	{
+		head = null;
+	}
+	public void insert(int item)
+	{
+		Node newNode= new Node(item);
+		if(head == null)
+		{
+			head = newNode;
+			
+		}
+		else{
+			head.next = newNode;
+			head = newNode;
+		}
+		
+	}
+
+}

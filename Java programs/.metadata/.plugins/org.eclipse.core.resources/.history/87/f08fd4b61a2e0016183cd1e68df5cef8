@@ -1,0 +1,54 @@
+
+public class Circular {
+	
+	private int front;
+	private int rear;
+	private int size;
+	private int[] data;
+	
+	
+	public Circular()
+	{
+		front = rear =0;
+		size= 5;
+		data = new int[size];
+	}
+	
+	public int DataSize()
+	{
+		return(size - front+ rear )%size;
+	}
+	
+	public Integer dequeue()
+	{
+		if(front ==0 && rear ==0)
+		{
+			System.out.println("Queue is Empty");
+			return null;
+		}
+		int temp = data[front++];
+		if(front>= size)
+		{
+		 front =0;
+		}
+		System.out.println("Queue is dequeued");
+		return temp;
+	}
+	
+	public void enqueue(int item)
+	{
+		int data_size= DataSize();
+		if(data_size == size-1)
+		{
+			System.out.println("Queue is full.Now resizing");
+			//resize();
+		}
+		data[rear++] = item;
+		System.out.println("Queue is enqueued");
+		if(rear >= size)
+		{
+			rear=0;
+		}
+	}
+
+}

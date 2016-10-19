@@ -1,0 +1,12 @@
+
+public class Doubly_List {
+
+	public Node head;
+	
+   public Doubly_List()
+	{
+		head = null;
+		
+	}
+	
+}

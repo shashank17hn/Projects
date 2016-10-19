@@ -1,0 +1,15 @@
+package array_prog;
+
+public class Frog_Jump {
+
+	public static void main(String[] args) {
+		int X = 10, Y = 85 ,D = 30;
+		if(X<=Y)
+		{
+			X= X + D;
+		}
+		System.out.println(X);
+
+	}
+
+}

@@ -1,0 +1,45 @@
+
+public class C_list {
+
+	public Node head;
+	private int count;
+	
+	public C_list()
+	{
+		head = null;
+		count =0;
+		
+	}
+	
+	public void insert(int item)
+	{
+		if(head == null)
+		{
+			Node link = new Node(item);
+			link.next = link;
+			link.previous = link;
+			head = link;
+			count++;
+		}
+		else
+		{
+			Node link = new Node(item);
+		//	head.next = link.previous;
+			link.next = head;
+		    link.previous= head;
+			head = link;
+			count++;
+		}
+	}
+	
+	public void print()
+	{
+		Node current = head;
+		while(count !=0)
+		{
+		  System.out.println(current.getdata());
+		  current = current.next;
+		  count--;
+		}
+	}
+}

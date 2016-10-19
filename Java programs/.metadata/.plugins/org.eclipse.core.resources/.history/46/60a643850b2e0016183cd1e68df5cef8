@@ -1,0 +1,56 @@
+
+public class Queue {
+
+	private int front;
+	private int rear;
+	private int[] data;
+	private int size;
+	
+	
+	public Queue()
+	{
+		front = -1;
+		rear = -1;;
+		size= 3;
+		data = new int[size];
+				
+	}
+	
+	public void enque(int item)
+	{
+		if(rear >= size)
+		{
+			resize();
+		}
+		System.out.println("Item added to the queue" + item);
+		data[++rear] = item;
+	}
+	
+	public Integer dequeue()
+	{
+		if(rear==-1 && front==-1)
+		{
+			System.out.println("Queue is Empty");
+			return null;
+		}
+		else
+		{
+			System.out.println("Item deleted from the queue");
+			return data[++front];
+		}
+	}
+	public void resize()
+	{
+		int temp[] = data;
+		size = size *2;
+		data = new int [size];
+		for(int i=0; i<=front; i++)
+		{
+			data[i] = temp[i];
+		}
+		
+		
+		
+	}
+	
+}

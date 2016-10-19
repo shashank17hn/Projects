@@ -1,0 +1,17 @@
+package extra;
+
+public class Derived  extends Base{
+
+	public static void play()
+	{
+		System.out.println("this is derived class");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Derived dc = new Derived();
+		dc.play();
+	}
+
+}

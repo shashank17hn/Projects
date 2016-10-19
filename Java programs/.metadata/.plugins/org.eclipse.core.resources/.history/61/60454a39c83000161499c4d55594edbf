@@ -1,0 +1,49 @@
+
+public class Binary_Tree {
+	
+	public TreeNode root;
+	
+	public Binary_Tree()
+	{
+		root = null;
+	}
+	
+	public Binary_Tree(TreeNode root)
+	{
+	  this.root = root;	
+	}
+	
+	public void traverse(TreeNode info)
+	{
+		System.out.print(info.getWeight()+ " ");
+		
+	}
+	
+	public void preorder(TreeNode root)
+	{
+		if(root == null) return;
+		traverse(root);
+		preorder(root.left);
+		preorder(root.right);
+		
+	}
+	
+	public void inorder(TreeNode root)
+	{
+		if(root == null) return;
+		preorder(root.left);
+		traverse(root);
+		preorder(root.right);
+		
+	}
+	
+	public void postorder(TreeNode root)
+	{
+		if(root == null) return;
+		preorder(root.left);
+		preorder(root.right);
+		traverse(root);
+		
+	}
+
+}

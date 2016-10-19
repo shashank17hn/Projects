@@ -1,0 +1,25 @@
+package extra;
+
+public class WrapperTest {
+
+	public static void main(String[] args) {
+
+		Integer i = new Integer(20);
+		String s = new String("hello");
+		Object o = new Object();
+		
+		int w;
+		String a;
+		 w= i;
+		 a=i.toString();
+		 s=i.toString();
+		 o=i;
+		 s=o.toString();
+		 a=o.toString();
+		// i= s;
+	 	
+		
+
+	}
+
+}

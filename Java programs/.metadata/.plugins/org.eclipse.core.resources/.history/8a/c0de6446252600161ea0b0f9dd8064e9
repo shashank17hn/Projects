@@ -1,0 +1,47 @@
+package firstLesson;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import firstLesson.UserDetails4;
+
+public class HibernateTest4 {
+
+	public static void main(String[] args) {
+		
+	
+
+	
+		       
+       SessionFactory sf = new Configuration().configure().buildSessionFactory();
+       Session ses = sf.openSession();
+       ses.beginTransaction();
+       
+     /* for(int i=0; i<10; i++)
+       {
+    		UserDetails4 user = new UserDetails4();     
+    		user.setUserName("User" + i);
+    		ses.save(user);
+       } */
+       //for insertion 
+       
+     	  /* UserDetails4 user = (UserDetails4)ses.get(UserDetails4.class, 6);
+           System.out.println("User retrived is " + user.getUserName()); */
+       // for fetching directly without HQL
+       
+       Query query = ses.createQuery("from UserDetails4");
+      List user =  query.list();
+      ses.getTransaction().commit();
+      ses.close();
+      System.out.println("Size of the table = "+ user.size());
+		
+
+    
+      
+	}
+
+}

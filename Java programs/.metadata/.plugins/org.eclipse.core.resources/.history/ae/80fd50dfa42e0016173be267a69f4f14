@@ -1,0 +1,25 @@
+
+public class Node {
+
+	private int data;
+	public Node next;
+	public Node previous;
+	
+	
+	Node(int data)
+	{
+		next = null;
+		previous = null;
+		this.data = data;
+		
+				
+	}
+
+	public int getData() {
+		return data;
+	}
+
+
+	
+	
+}
