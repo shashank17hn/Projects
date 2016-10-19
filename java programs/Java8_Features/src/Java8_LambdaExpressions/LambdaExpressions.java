@@ -11,7 +11,7 @@ interface A
 	@Override
 	public void show() {
 		// TODO Auto-generated method stub
-		System.out.println("This class is just creaed to use the unimplemented method of interface");
+		System.out.println("This class is just created to use the unimplemented method of interface");
 	}
 	
 	
