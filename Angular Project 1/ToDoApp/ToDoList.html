@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mod">
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.js"></script>
+    <title>Title</title>
+
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="cont as c1">
+<input type="text" ng ng-model="c1.TextValue">
+<button ng-click="c1.add()">Add</button>
+<p>
+
+    <button ng-show="c1.flag" ng-click="c1.toggle()">Edit</button>   <!-- This is the edit/ delete button which appears on value of flag value which is changed by toggle function defined in app.js -->
+    <button ng-hide="c1.flag" ng-click="c1.toggle()">Done</button>
+</p>
+
+<div>
+    <ol>
+        <li ng-repeat="obj in c1.arr track by $index">  <!-- this is just to the to do list  -->
+            <p ng-show="c1.flag"> {{obj}} <button ng-click="c1.delete($index)"> Delete </button> </p>
+            <p ng-hide="c1.flag"> <input type=" text" ng-model="obj">  </p>
+        </li>
+
+
+    </ol>
+
+</div>
+
+
+
+</body>
+</html>

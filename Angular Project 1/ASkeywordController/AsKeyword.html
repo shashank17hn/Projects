@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mod">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<div ng-controller="cont1 as c1">
+
+    <p>value from first controller {{c1.val}}</p>
+    <div ng-controller="cont2 as c2">
+
+       <p>value from second controller {{c2.val}}</p>
+    </div>
+
+</div>
+
+</body>
+</html>

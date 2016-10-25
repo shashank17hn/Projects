@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <title>Show/Hide/If</title>
+    <script src="angular.js"></script>
+</head>
+<body>
+
+<p>
+    <input type="checkbox" ng-model="val"> {{val}}
+</p>
+<p ng-show="val">
+   ng- show : This is shown when checkbox is true.  Its added in DOM
+</p>
+<p ng-if="val">
+    ng- if : This is shown when checkbox is true. Its added in DOM while value is true otherwise not
+</p>
+<p ng-hide="val">
+    ng- hide : This is shown when checkbox is false. It is there in DOM but css will remove it by changing display: none
+</p>
+
+</body>
+</html>

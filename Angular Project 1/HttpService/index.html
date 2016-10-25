@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mod">
+<head >
+    <meta charset="UTF-8">
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <title>Title</title>
+</head>
+<body ng-controller="cont">
+<div>
+    <input type="text" ng-model="SearchText">   <!--- search box by creating custom filter an using inside ng-repeat --->
+</div>
+<div>
+    <ol>
+        <li ng-repeat="obj in rec |filter : SearchText">
+            <p>{{obj.Name}}</p>
+            <p>{{obj.Age}}</p>
+
+        </li>
+
+    </ol>
+
+
+</div>
+
+</body>
+</html>

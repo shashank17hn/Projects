@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mod">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.js"></script>
+    <script>
+
+       var mod =  angular.module("mod",[]);
+       mod.controller("cont", chk);
+
+        function chk()
+        {
+            this.arr = [
+
+                {'name' :  "abc" , 'age' : 1},
+                {'name' :  "def" , 'age' : 2},
+                {'name' :  "feg" , 'age' : 3}
+            ]
+        }
+
+
+    </script>
+
+
+</head>
+<body ng-controller="cont as c1">
+<div>
+
+    <div ng-repeat="obj in c1.arr">
+        <p>Index : {{$index}}</p>
+        <p>name : {{obj.name}}</p>
+        <p>age : {{obj.age}}</p>
+        <p>first : {{$first}}</p>
+        <p>----------------</p>
+    </div>
+</div>
+
+</body>
+
+
+</html>

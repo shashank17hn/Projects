@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mod">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <script src ="angular.js"></script>
+    <script src ="app.js"></script>
+</head>
+<body ng-controller="cont as c1">
+<div>
+    <p>
+    <input type="text" ng-model="c1.val1">
+    <span ng-bind="c1.opt"></span>
+    <input type="text" ng-model="c1.val2">
+        <button ng-click="c1.calculate()"> = </button>
+        <span ng-bind="c1.result"></span>
+    </p>
+</div>
+<div>
+    <button ng-click="c1.operation('+')"> + </button>
+    <button ng-click="c1.operation('-')"> - </button>
+    <button ng-click="c1.operation('*')"> * </button>
+    <button ng-click="c1.operation('/')"> / </button>
+
+</div>
+</body>
+</html>

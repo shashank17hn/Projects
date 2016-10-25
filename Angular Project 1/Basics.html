@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<div ng-init="hours = 9">
+
+    <p ng-if="hours > 8 ">
+        value is greater then given value. This is the value {{hours}}
+    </p>
+
+    <p>
+        Below is the example of ng-bind
+    </p>
+    <p ng-bind="hours"> inside values wont be getting displayed.</p>
+
+</div>
+<div></div>
+
+</body>
+</html>
