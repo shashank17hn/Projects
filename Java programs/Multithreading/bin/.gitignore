@@ -4,13 +4,3 @@
 /callable_Future/
 /countdownLatches_impl/
 /deadLock/
-/interruptingThread/
-/interruptingThreadInExecutor/
-/lowLevelSynchronization/
-/mplementRun/
-/multipleLocks/
-/producerConsumer/
-/reEntrantLock/
-/semaphore_Impl/
-/volatile_Impl/
-/waitNotify/
