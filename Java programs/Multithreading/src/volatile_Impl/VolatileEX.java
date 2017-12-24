@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Processor extends Thread{
 	
-	private volatile boolean status = true;
+	private  boolean status = true;
 	
 	public void run()
 	{
@@ -28,13 +28,13 @@ public class VolatileEX {
 		Processor p1 = new Processor();
 		Processor p2 = new Processor();
 		p1.start();
-	//	p2.start();
+		p2.start();
 		
 		Scanner scan = new Scanner(System.in);
 		scan.nextLine();
 		
 		p1.shutdown();
-	//	p2.shutdown();
+	   // p2.shutdown();
 		
 
 	}

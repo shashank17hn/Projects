@@ -38,9 +38,11 @@ public class AutoUP {
 	public static void main(String[] args) {
 		
 		
+		A a = new A();
+		a.print();
+				
 		
-		
-		//System.out.println(null);
+	/*	//System.out.println(null);
 		C c = new C();
 		B b = c;
 		A a = c;                               // Autoup casting (its asafe)
@@ -50,14 +52,14 @@ public class AutoUP {
 		
 		//********************************************//
 		
-		A a1 = new A();
+	//	A a1 = new A();
 	//	B b1 = (B)a1;                          // Down casting (its not safe)
 	//	C c1 = (C)a1;
 		
 	//	c1.print();
 	//	b1.print();
-		A o1 = new C( ); 
-		B o2 = (B) o1;
+		//A o1 = new C( ); 
+		//B o2 = (B) o1;*/
 		
 		
 		
