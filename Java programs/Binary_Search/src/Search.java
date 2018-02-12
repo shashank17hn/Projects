@@ -24,7 +24,7 @@ public class Search {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] A = new int[]{5,6,8,3,7,9};
+		int[] A = new int[]{5,6,8,3,7,9,10};
 		int value = 7;
 		System.out.println(binary(A,value));
 		
