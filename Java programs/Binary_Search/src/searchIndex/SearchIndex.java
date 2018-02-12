@@ -4,7 +4,7 @@ public class SearchIndex {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] A = new int[]{5,6,8,3,7,9,10};
+		int[] A = new int[]{5,6,8,3,0,7,9,10};
 		searchIndex(A,9);
 	
 	}
