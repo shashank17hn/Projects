@@ -6,6 +6,7 @@ import java.util.Map;
 class Person
 {
 	private String name;
+	private int id;
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -34,7 +35,7 @@ class Person
 		return true;
 	}
 
-	private int id;
+	
 	
 	public Person(int id,String name)
 	{
@@ -62,7 +63,7 @@ public class ObjectKey {
 		Person p1 = new Person (1,"1abc");
 		Person p2 = new Person (2,"2abc");
 		Person p3 = new Person (3,"3abc");
-		Person p4 = new Person (4,"4abc");
+		Person p4 = new Person (1,"1abc");
 		
 		Map<Person,Integer> hash= new HashMap<Person,Integer>();
 		
