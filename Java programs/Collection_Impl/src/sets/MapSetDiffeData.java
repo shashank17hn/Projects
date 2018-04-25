@@ -30,8 +30,8 @@ public class MapSetDiffeData {
 		}
 		
 		map.entrySet().forEach(e->{
-			System.out.print(e.getKey() + " : ");
-			System.out.println(e.getValue());
+			System.out.print("\n"+ e.getKey() + " : ");
+			e.getValue().forEach(x-> System.out.print(x + " "));
 		});
 		
 

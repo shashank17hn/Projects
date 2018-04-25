@@ -1,22 +1,27 @@
-package superReducedString;
+package camelcase;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 public class Solution {
 
     static int camelcase(String s) {
         // Complete this function
         char[] a = s.toCharArray();
+        //boolean start = false;
+        int counter = 1;
         for(int i =0 ; i< s.length() ; i++){
-            Character.isUpperCase(arg0)
-            if(a[i].has
+            if(Character.isUpperCase(a[i]))
+            {
+            	
+              counter++;
+            	
+            }  
         }
+        return counter;
         
     }
+    
+    
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
