@@ -23,7 +23,7 @@ Anna didn't eat item , but she shared the rest of the items with Brian. The tota
 */
 
 
-package algorithm.challanges;
+package algorithm.challenges;
 
 import java.util.Scanner;
 

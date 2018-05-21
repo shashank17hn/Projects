@@ -1,4 +1,4 @@
-package algorithm.challanges;
+package algorithm.challenges;
 
 import java.io.IOException;
 import java.util.Scanner;
