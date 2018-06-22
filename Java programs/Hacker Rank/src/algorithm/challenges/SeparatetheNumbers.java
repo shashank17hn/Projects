@@ -11,7 +11,7 @@ public class SeparatetheNumbers {
     		}
     	}
 
-    	Integer.parseInt(arg0);
+    	
     }
     static String[] bigSorting(String[] unsorted) {
 
