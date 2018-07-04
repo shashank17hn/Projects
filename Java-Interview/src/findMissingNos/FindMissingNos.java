@@ -12,8 +12,8 @@ public class FindMissingNos {
 		// TODO Auto-generated method stub
 		
 		 // one missing number
-        printMissingNumber(new int[]{1, 2, 3, 4, 6}, 6);
- 
+        printMissingNumber(new int[]{1, 2, 3, 4, 6, 4}, 7);
+/* 
         // two missing number
         printMissingNumber(new int[]{1, 2, 3, 4, 6, 7, 9, 8, 10}, 10);
  
@@ -21,7 +21,7 @@ public class FindMissingNos {
         printMissingNumber(new int[]{1, 2, 3, 4, 6, 9, 8}, 10);
  
         // four missing number
-        printMissingNumber(new int[]{1, 2, 3, 4, 9, 8}, 10);
+        printMissingNumber(new int[]{1, 2, 3, 4, 9, 8}, 10);*/
  
         // Only one missing number in array
         //int[] iArray = new int[]{1, 2, 3, 5};
@@ -61,21 +61,29 @@ public class FindMissingNos {
 	        BitSet bitSet = new BitSet(count);
 	        
 	    
-	 
+	 //{1, 2, 3, 4, 6}
+	       bitSet.set(0);  /// since index starts with 0 but the numbers given in an array starts with 1
 	        for (int number : numbers) {
-	            bitSet.set(number - 1);
+	            if(bitSet.get(number)) {
+	            	System.out.println("repeeat " + number);
+	     
+	            }else {
+	                bitSet.set(number);
+	            }
 	        }
 	 
 	        System.out.println(bitSet);
-	        System.out.println(bitSet.get(1));
-	        System.out.printf("Missing numbers in integer array %s, with total number %d is %n",Arrays.toString(numbers), count);
+	       // System.out.println(bitSet.get(1));
+	       // System.out.printf("Missing numbers in integer array %s, with total number %d is %n",Arrays.toString(numbers), count);
 	        int lastMissingIndex = 0;
-	        System.out.println(missingCount);
-	        System.out.println(lastMissingIndex);
+	       // System.out.println(missingCount);
+	       // System.out.println(lastMissingIndex);
 	        for (int i = 0; i < missingCount; i++) {
 	            lastMissingIndex = bitSet.nextClearBit(lastMissingIndex);
-	            System.out.println("check"+  ++lastMissingIndex);
+	          System.out.println("check"+  lastMissingIndex);
 	        }
+	        // cardinality for checking how many bits are set as true
+	        System.out.println(bitSet.cardinality()-1);
 	 
 	    }
 
