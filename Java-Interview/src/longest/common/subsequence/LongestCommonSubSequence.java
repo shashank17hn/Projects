@@ -9,6 +9,7 @@ public class LongestCommonSubSequence {
 		// TODO Auto-generated method stub
 		String a = "BATD";
 		String b = "ABACD";
+		
 		System.out.println(getSubSequence(a.toCharArray(), b.toCharArray(), a.length()-1, b.length()-1));
 	}
 	
@@ -29,7 +30,7 @@ public class LongestCommonSubSequence {
 		else  {
 			int temp1 = getSubSequence(a, b, i-1, j);
 			int temp2 =getSubSequence(a, b, i, j-1);
-			mem[i][j] = 1+ Math.max(temp1, temp2);
+			mem[i][j] =  Math.max(temp1, temp2);
 			return 1+ Math.max(temp1, temp2);
 		}
 	}
